@@ -1,32 +1,64 @@
-# test-admin
+# 📊 React Admin Test Project  
 
-## Installation
+## Overview  
+This project is a lightweight **admin dashboard** built with **React Admin**, a popular framework for creating data-driven admin interfaces. It connects to a mock REST API (**JSONPlaceholder**) and provides a simple way to **browse, view, and manage posts and users** through a responsive interface.  
 
-Install the application dependencies by running:
+I built this project because I wanted to **practice React Admin** and see how it works in real projects. I’ve heard that some companies use it for internal tooling and admin dashboards, and since it’s quite popular in the industry, I wanted to get hands-on experience with it.  
 
-```sh
+---
+
+## 🎮 How to Use  
+- Open the **Posts** tab to view a list of posts fetched via the API.  
+- Each row displays details like **User ID, Post ID, Title, and Body**.  
+- Clicking on a row allows you to view more information (and in a full setup, could allow editing/deleting).  
+- React Admin automatically handles **pagination, sorting, and filtering**.  
+
+---
+
+## 🛠️ Technologies Used  
+- **React Admin** — Framework for admin dashboards  
+- **Material UI (MUI)** — Design system & pre-built components  
+- **React (Vite)** — Component-based UI  
+- **JavaScript (ES6+)** — Core app logic  
+- **JSONPlaceholder API** — Mock REST API for posts & users  
+
+---
+
+## 🚀 Live Demo  
+[React Admin Test Project](https://my-react-admin-test.netlify.app/#/posts)  
+
+---
+
+## 💻 Running Locally  
+
+Clone the repository:  
+
+git clone https://github.com/Yan2992/react-admin-test.git
+cd react-admin-test
+
+Install dependencies:
+
 npm install
-```
 
-## Development
 
-Start the application in development mode by running:
+Start the development server:
 
-```sh
 npm run dev
-```
 
-## Production
 
-Build the application in production mode by running:
+Open your browser at:
 
-```sh
-npm run build
-```
+http://localhost:5173
 
-## DataProvider
+✨ Features & Highlights
 
-The included data provider use [ra-data-json-server](https://github.com/marmelab/react-admin/tree/master/packages/ra-data-json-server). It fits REST APIs powered by [JSON Server](https://github.com/typicode/json-server), such as [JSONPlaceholder](https://jsonplaceholder.typicode.com/).
+📂 Browse posts with pagination
 
-You'll find an `.env` file at the project root that includes a `VITE_JSON_SERVER_URL` variable. Set it to the URL of your backend. By default, we set it to targets [JSONPlaceholder](https://jsonplaceholder.typicode.com/).
+🔗 Reference fields showing relationships (posts → users)
 
+🎨 Responsive design powered by Material UI
+
+⚡ Built with React Admin for rapid prototyping and scalability
+
+📬 Contact & Connect
+Created by Yan Bulavintsev
