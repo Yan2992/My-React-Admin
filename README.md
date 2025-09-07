@@ -19,13 +19,18 @@ I built this project because I wanted to **practice React Admin** and see how it
 - **React Admin** — Framework for admin dashboards  
 - **Material UI (MUI)** — Design system & pre-built components  
 - **React (Vite)** — Component-based UI  
-- **JavaScript (ES6+)** — Core app logic  
+- **TypeScript** — Core app logic  
 - **JSONPlaceholder API** — Mock REST API for posts & users  
 
 ---
 
 ## 🚀 Live Demo  
 [React Admin Test Project](https://my-react-admin-test.netlify.app/#/posts)  
+
+To Login use the following credentials:
+
+**Username:** admin
+**Password:** password 
 
 ---
 
@@ -56,9 +61,9 @@ http://localhost:5173
 
 🔗 Reference fields showing relationships (posts → users)
 
-🎨 Responsive design powered by Material UI
+🎨 Responsive and very Basic design powered by Material UI
 
 ⚡ Built with React Admin for rapid prototyping and scalability
 
-📬 Contact & Connect
-Created by Yan Bulavintsev
+📬 Contact & Connect: 
+Created by Yan Bulavintsev 🔗 LinkedIn: https://www.linkedin.com/in/yan-bulavintsev/
